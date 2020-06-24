@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+}
+
+    /* INDEX.HTML */
+
+#area-principal{
+    margin: auto;
+    width: 1050px;
+    height: 1200px;
+  }
+
+#area-cabecalho{
+    width:100%;
+    height: 40%;
+    
+}
+    .fundo{
+        width:100%;
+        height: 58%;
+
+    }
+
+    .titutlo-cabecalho{
+    width:100%;
+    height: 45%;
+    margin-top: -15px;
+    text-align: center;
+    }
+
+        .bemvindo{
+            font-size: 2.8em;
+            margin-top: 40px;
+            color: #004F9E;
+        }
+
+        .adivinhe{
+            font-size: 3em;
+            color:#E30512;
+        }
+#area-conteudo{
+    width:100%;
+    height: 60%;
+}
+
+    #cadastro{
+        width: 450px;
+        height: 460px;
+    }
+
+        .titulo-cadastro{
+            width: 450px;
+            border: solid 1px green;
+            height: 60px;
+            background-color: #00A83C;
+            text-align: center;
+            font-size: 1.7em;
+            color: white;
+            line-height: 2em;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .area-cadastro{
+            width: 450px;
+            height: 400px;
+            margin-top: 20px;
+            
+        }
+
+        #campo-form{
+            color: rgb(3, 3, 3);
+            font-size: 1.4em;
+        }
+
+            .campo-fild{
+                padding: 7px 7px;
+                background-color: #dcdcdc;
+                margin-top: -10px;
+
+            }
+
+            .email{
+                width: 350px;
+                height: 25px;
+                margin-left: 4px;
+                margin-top: 7px;
+
+
+            }
+            .data{
+                width: 200px;
+                height: 30px;
+                margin-left: 5px;
+                margin-top: 20px;
+
+            }
+
+            .titulo{
+                margin-top:px;
+                font-weight:500;
+            }
+
+            
+            .sub-titulo{
+                font: weight 2;
+                
+                
+            }
+
+            .campo-fild2{
+                padding: 7px 7px;
+                margin-top: 38px;
+                height: 123px;
+                background-color: #dcdcdc;
+
+            }
+
+            
+            .opcaoM{
+                width: 2em;
+                height: 1em;
+                margin-top: 10px;
+                background-color: #E30512;
+            }
+
+            .opcaoF{
+                width: 2em;
+                height: 1em;
+                margin-top: 10px;
+                margin-left: 9px;
+                background: #E30512;
+                }
+
+            .enviar{
+                width: 300px;
+                height: 50px;
+                background-color: #00A83C;  
+                margin-left: 70px;
+                margin-top: 25px;
+                font-size: 1.3em;
+                color: white;
+                line-height: 1.4em;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+
+    #niveis{
+        width: 300px;
+        height: 400px;
+        float: left;
+        margin-left:490px;
+        margin-top:-460px;
+
+    }
+
+
+        .titulo-niveis{
+            width: 300px;
+            height: 60px;
+            background-color: #00A83C;
+            text-align: center;
+            font-size: 1.7em;
+            color: white;
+            line-height: 2em;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .campo-fild3{
+            padding: 7px 7px;
+            margin-top: 10px;
+            background-color: #dcdcdc;
+            font-size: 1.5em;
+            height: 300px;
+        }
+
+
+            .botao-nivel-f{
+                width: 200px;
+                height: 50px;
+                margin-left: 40px;
+                margin-top: 20px;
+                background-color: #00A83C;
+                font-size: 1.2em;
+                color: white;
+                line-height: 1.4em;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                border-radius: 1em;
+
+            }
+            .botao-nivel-m{
+                width: 200px;
+                height: 50px;
+                margin-left: 40px;
+                margin-top: 30px;
+                background-color: #f47c02;
+                font-size: 1.2em;
+                color: white;
+                line-height: 1.4em;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                border-radius: 1em;
+
+            }
+            .botao-nivel-d{
+                width: 200px;
+                height: 50px;
+                margin-left: 40px;
+                margin-top: 30px;
+                background-color: #e10612;
+                font-size: 1.2em;
+                color: white;
+                line-height: 1.4em;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                border-radius: 1em;
+
+            }
+
+
+    #jogar{
+        width: 200px;
+        height: 460px;
+        float: right;
+        margin-left: 400px;
+        margin-top:-460px;
+
+    }
+
+    .botao-jogo{
+        width: 200px;
+        height: 60px;
+        margin-top:190px;
+        
+        
+
+    }
+
+    .jogar{
+        
+            width: 200px;
+            height: 80px;
+            background-color: #004F9E;
+            font-size: 1.9em;
+            color: white;
+            line-height: 1.4em;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border-radius: 1em;
+            font-weight: 700;
+        
+    }
+
+  

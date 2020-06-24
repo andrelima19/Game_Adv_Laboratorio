@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+
+<body>
+
+         {% extends 'base.html' %}  <!-- Esse arquivo extende o arquivo de base -->
+
+        {% block content %} 
+
+        <div id="niveis" >
+                    <form>
+                        <fieldset class="campo-fild3">
+                            <legend class="titulo" >Nível</legend>
+                            <p>Adivinhe um número de 1 a 100</p>
+                            <input class="botao-nivel-f" type="button" name="dificil" id="dificil" value="Dificil" disabled>
+                            <p>
+                            
+                            </fieldset>
+
+                            <input class="area-texto" type="text" name="texto" id="texto" placeholder="Insira um número aqui">
+
+                            <input class="botao-advinhe" type="button" name="dificil" id="dificil" value="Adivinhe!">
+
+                    </form>
+                </div>
+
+
+         		<div id="opcoes">
+                          <a href="medio.html"><input class="botao-nivel-ant" type="button" name="niv-ant" id="niv-ant" value="Nível anterior"></a>
+                          <a href="index.html"><input class="botao-sair" type="button" name="sair" id="sair" value="sair"></a>
+                          <a href="dificil.html"><input class="botao-prox-nivel" type="button" name="prox-nivel" id="prox-nivel" value="Proximo Nível" disabled></a>
+                </div>
+
+        {% endblock %}
+
+</body>
+</html>

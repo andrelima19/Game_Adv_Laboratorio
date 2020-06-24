@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename="css/estiloniveis.css")}}">
+
+    <title>{% block title %}  {% endblock %}</title>
+</head>
+<body>
+
+
+        <div id="area-principal">
+
+            <div id="area-cabecalho">
+                <div class="fundo"><img src="../static/imgs/fundo3.jpg" width="1000px" height="250px" > </div>
+                <div class="titutlo-cabecalho" ><h3 class="adivinhe">Adivinhe o número!</h3>
+                </div>
+            </div>
+
+                     {% block content %}
+                    
+
+            <div id="area-conteudo">
+
+              
+        
+                <div id="opcoes">
+                          <a href=""><input class="botao-nivel-ant" type="button" name="niv-ant" id="niv-ant" value="Nível anterior" disabled></a>
+                          <a href="index.html"><input class="botao-sair" type="button" name="sair" id="sair" value="sair"></a>
+                          <a href="medio.html"><input class="botao-prox-nivel" type="button" name="prox-nivel" id="prox-nivel" value="Proximo Nível"></a>
+                </div>
+
+                   {% endblock %}
+
+
+            </div>
+            
+        </div>
+
+</body>
+</html>

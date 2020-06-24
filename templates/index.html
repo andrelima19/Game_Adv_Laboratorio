@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename="css/estiloindex.css")}}">
+
+    <title>Adivinhe o jogo</title>
+</head>
+<body>
+        <div id="area-principal">
+
+            <div id="area-cabecalho">
+                <div class="fundo"> <img src="../static/imgs/fundo3.jpg" width="1000px" height="250px"> </div>
+                <div class="titutlo-cabecalho" ><h2 class="bemvindo">Seja Bem-Vindo ao GAME </h2><p>
+                <h3 class="adivinhe">Adivinhe o número!</h3>
+                </div>
+            </div>
+
+            <div id="area-conteudo">
+
+                <div id="cadastro" >
+                    <div class="titulo-cadastro"> Cadastre-se</div>
+                    <div class="area-cadastro">
+                        
+                        <form id="campo-form">
+                            <fieldset class="campo-fild" >
+                                <legend class="titulo" >Informações</legend>
+
+                                <label class="sub-titulo" for="">Email</label>
+                                <input class="email" type="email" name="email" id="email" value="" />
+                                <p>
+                                <label class="sub-titulo" for="">Data de Nascimento</label>
+                                <input class="data" type="date" name="nascimento" id="nascimento" value="">
+                                <p>
+                             </fieldset> 
+
+                             <fieldset class="campo-fild2" >
+
+                                <legend class="titulo">Sexo</legend>
+
+                                <label class="sub-titulo" for="">Masculino</label>
+                                <input class="opcaoM" type="radio" name="Opcao" id="masculino" value="">
+                                <br>
+                                <label class="sub-titulo" for="">Feminino</label>
+                                <input class="opcaoF" type="radio" name="Opcao" id="feminino" value="">
+                            </fieldset>
+
+                                <input class="enviar" type="submit" name="enviar" id="enviar" value="Enviar">
+                                
+                        </form>
+
+                    </div>
+                </div>
+
+                <div id="niveis" >
+                    <div class="titulo-niveis"> Escolha o nível</div>
+
+                    <form>
+                        <fieldset class="campo-fild3">
+                            <legend class="titulo" >Níveis</legend>
+
+                           <a href="facil.html"><input class="botao-nivel-f" type="button" name="Fácil" id="feminino" value="Fácil"></a>
+                            <p>
+                            <a href="medio.html"><input class="botao-nivel-m" type="button" name="medio" id="feminino" value="Médio"></a>
+                            <p>
+                            <a href="dificil.html"><input class="botao-nivel-d" type="button" name="dificil" id="feminino" value="Difícil"></a>
+                        </fieldset>
+                    </form>
+                </div>
+
+                
+            </div>
+            
+        </div>
+
+</body>
+</html>
